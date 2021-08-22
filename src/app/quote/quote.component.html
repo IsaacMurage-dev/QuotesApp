@@ -9,8 +9,8 @@
 
             <div *ngFor='let quote of quotes; let i = index'>
                 <p> "{{quote.define}}'' <br>Posted {{quote.postDate|dateAgo}}</p>
+                <button (click)='slideUpDetails(i)' class="btn btn-info">Quote info</button>
                 <br>
-                <button (click)='toggleDetails(i)' class="btn btn-success">Quote info</button>
                 <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
             </div>
         </div>
