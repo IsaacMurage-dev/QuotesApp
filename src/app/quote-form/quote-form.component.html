@@ -7,7 +7,7 @@
 
         <div class="form-group">
             <label for ="info">Enter quote</label>
-            <textarea rows="5" class="form-control" id="info" [(ngModel)]="newQuote.define" name="info" #info="ngModel" required></textarea>
+            <textarea rows="3" class="form-control" id="info" [(ngModel)]="newQuote.define" name="info" #info="ngModel" required></textarea>
             <div [hidden]="info.valid || info.pristine" class="alert alert-danger">
                 <p>Insert quote</p>
             </div>
@@ -40,6 +40,6 @@
             </div>
         </div>
         <br>
-        <button type="submit" class="btn btn-primary">Post Quote</button>
+        <button type="submit" class="btn btn-warning">Post Quote</button>
     </form>
 </div>
