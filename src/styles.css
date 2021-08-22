@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image:url("assets/colourful1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: yellowgreen; */
+}
+h1{
+    text-align: center;
+}

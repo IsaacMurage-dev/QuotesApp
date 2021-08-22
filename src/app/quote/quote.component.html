@@ -1,0 +1,23 @@
+<div class="container">
+
+    <h1><span>Quotes Generator</span></h1>
+    <br>
+    
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Sample quotes</h2>
+
+            <div *ngFor='let quote of quotes; let i = index'>
+                <p> "{{quote.define}}'' <br>Posted {{quote.postDate|dateAgo}}</p>
+                <br>
+                <button (click)='toggleDetails(i)' class="btn btn-success">Quote info</button>
+                <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+        </div>
+    
+    </div>
+    
+</div>
