@@ -8,11 +8,11 @@ import{Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[]=[
-    new Quote(1,'Kwani ni Kesho','Aizo','The Badger',new Date(2020,12,30)),
+    new Quote(1 ,'Kwani ni Kesho','Aizo','The Badger',new Date(2020,12,30)),
     new Quote(2 ,'Come may, what may','Gwen', 'The Guardian',new Date(2019,2,14)),
     new Quote(3 ,'The grass is greener on the other side ','Varane', 'Raphael',new Date(2019,2,14)),
     new Quote(4 ,'Wherever life plants you, bloom with grace ','Jadon', 'Sancho',new Date(2019,2,15)),
-    // new Quote(5 ,'What is meanT for you will find its way ','Tariq', 'Dr.Phil',new Date(2019,9,10)),
+  
     
     
   ]
