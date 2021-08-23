@@ -28,7 +28,7 @@ With this application, users can:
 
 ## Link to the Deployed Page
 
-<a href="https://isaacmurage-dev.github.io/QuotesApp/"> </a>
+<a href="https://isaacmurage-dev.github.io/QuotesApp/">QuotesApp</a>
 
 ## Contact Information
 
