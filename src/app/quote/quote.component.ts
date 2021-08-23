@@ -27,6 +27,9 @@ export class QuoteComponent implements OnInit {
   slideUpDetails(index){
     this.quotes[index].showDescription = !this.quotes[index].showDescription;
   }
+  // deleteQuote(index){
+  //   this.quotes[index].showDescription = !this.quotes[index].showDescription;
+  // }
 
   constructor() { }
 
