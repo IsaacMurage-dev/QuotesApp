@@ -12,6 +12,8 @@
             <div *ngFor='let quote of quotes; let i = index'>
                 <p> "{{quote.define}}'' <br>Posted {{quote.postDate|dateAgo}}</p>
                 <button (click)='slideUpDetails(i)' class="btn btn-info">Quote info</button>
+                <button type="button" class="btn btn-success"(click)="quote.upvote=quote.upvote+1">Like{{quote.upvote}}</button>
+              <button type="button" class="btn btn-secondary"(click)="quote.downvote=quote.downvote+1">Unlike{{quote.downvote}}</button>
                 <!-- <button class="btn btn-success" (click)='deleteQuote(true)(i)'>Delete</button> -->
                 <br>
                 <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
