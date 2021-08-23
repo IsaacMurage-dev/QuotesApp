@@ -4,21 +4,20 @@
 Murage Isaac
 
 ## Description
-<!-- This is an Angular 9 application that affords users the opportunity to view and rate quotes from other users as well as the option to share their own quotes. -->
+This is a Quotes web application that enables users to view sample quotes that have been posted by other users, rate them and even share their own.
 
 ## Specifications
 
 With this application, users can:
   - Create a new quote.
-  - Upvote or downvote a quote.
-  <!-- - See the number of upvotes and downvotes of each quote.
-  - View the quote with the most likes in highlighted text. -->
+  - Like and upvote a quote or dislike and downvote it.
+
 ## Technologies Used
 
   - TypeScript
   - HTML
   - CSS
-  <!-- - Angular CLI version 9.0.7 -->
+  -Angular
 
 ## Setup/Installation Requirements
 
@@ -29,7 +28,7 @@ With this application, users can:
 
 ## Link to the Deployed Page
 
-https://github.com/IsaacMurage-dev/QuotesApp.git
+<a href="https://isaacmurage-dev.github.io/QuotesApp/"> </a>
 
 ## Contact Information
 
@@ -38,8 +37,7 @@ In case of any feedback, you can reach me through:
 
 ## License
 
-The MIT License (MIT)
-Copyright (c) 2021 Murage Isaac.
+This project is under [MIT](https://choosealicense.com/licenses/mit/) &COPY; 2021 All Rights Reserved.
 
 
 
