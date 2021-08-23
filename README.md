@@ -39,7 +39,7 @@ In case of any feedback, you can reach me through:
 ## License
 
 The MIT License (MIT)
-Copyright (c) 2020 Murage Isaac.
+Copyright (c) 2021 Murage Isaac.
 
 
 
