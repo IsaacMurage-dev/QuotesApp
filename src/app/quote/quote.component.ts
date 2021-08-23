@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
     new Quote(1 ,'The road to success and the road to failure are almost exactly the same.','Carl Ray','Colin R. Davis',new Date(2020,12,30)),
     new Quote(2 ,'In this world nothing can be said to be certain, except death and taxes.','The Guardian', 'Benjamin Franklin',new Date(2019,2,14)),
     new Quote(3 ,'When you judge another, you do not define them; you define yourself. ','Varane', 'Wayne Dyer',new Date(2019,2,14)),
-    new Quote(4 ,'Wherever life plants you, bloom with grace ','Jadon', 'Sancho',new Date(2019,2,15)),
+    new Quote(4 ,'Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot. ','Sancho', 'Unknown',new Date(2019,2,15)),
   
     
     
