@@ -8,8 +8,8 @@ import{Quote} from '../quote'
 export class QuoteComponent implements OnInit {
 
   quotes:Quote[]=[
-    new Quote(1 ,'The road to success and the road to failure are almost exactly the same.','','Colin R. Davis',new Date(2020,12,30)),
-    new Quote(2 ,'Come may, what may','Gwen', 'The Guardian',new Date(2019,2,14)),
+    new Quote(1 ,'The road to success and the road to failure are almost exactly the same.','Carl Ray','Colin R. Davis',new Date(2020,12,30)),
+    new Quote(2 ,'In this world nothing can be said to be certain, except death and taxes.','The Guardian', 'Benjamin Franklin',new Date(2019,2,14)),
     new Quote(3 ,'The grass is greener on the other side ','Varane', 'Raphael',new Date(2019,2,14)),
     new Quote(4 ,'Wherever life plants you, bloom with grace ','Jadon', 'Sancho',new Date(2019,2,15)),
   
