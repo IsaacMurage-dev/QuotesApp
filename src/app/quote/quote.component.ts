@@ -12,10 +12,18 @@ export class QuoteComponent implements OnInit {
     new Quote(2 ,'In this world nothing can be said to be certain, except death and taxes.','The Guardian', 'Benjamin Franklin',new Date(2019,2,14)),
     new Quote(3 ,'When you judge another, you do not define them; you define yourself. ','Varane', 'Wayne Dyer',new Date(2019,2,14)),
     new Quote(4 ,'Life is like a camera. Just focus on what’s important, capture the good times, develop from the negatives, and if things don’t work out, just take another shot. ','Sancho', 'Unknown',new Date(2019,2,15)),
-  
-    
-    
+   
   ]
+  counter:number;
+  mostUpvotedQuote: number;
+  currentLikes: number;
+
+upvote(i:any) {
+  this.quotes[i].upvote ++;
+}
+downvote(i:any) {
+  this.quotes[i].downvote ++;
+}
 
   addNewQuote(quote){
     let quoteLength = this.quotes.length;
@@ -30,6 +38,17 @@ export class QuoteComponent implements OnInit {
   // deleteQuote(index){
   //   this.quotes[index].showDescription = !this.quotes[index].showDescription;
   // }
+  highestLikes(){
+    this.mostUpvotedQuote = this.quotes[0].upvote
+    for (this.counter = 0; this.counter < this.quotes.length;this.counter++){
+      this.currentLikes = this.quotes[this.counter].upvote;
+      if(this.currentLikes > this.mostUpvotedQuote){
+        this.mostUpvotedQuote = this.currentLikes 
+      }
+    }
+      return this.mostUpvotedQuote
+  }
+
 
   constructor() { }
 
