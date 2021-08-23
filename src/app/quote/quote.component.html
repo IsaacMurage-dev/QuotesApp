@@ -12,8 +12,7 @@
             <div *ngFor='let quote of quotes; let i = index'>
                 <p> "{{quote.define}}'' <br>Posted {{quote.postDate|dateAgo}}</p>
                 <button (click)='slideUpDetails(i)' class="btn btn-info">Quote info</button>
-                <br>
-                <button class="btn btn-success" (click)='deleteQuote(true)(i)'>Delete</button>
+                <!-- <button class="btn btn-success" (click)='deleteQuote(true)(i)'>Delete</button> -->
                 <br>
                 <app-quote-detail *ngIf='quote.showDescription' [quote]='quote'></app-quote-detail>
             </div>
