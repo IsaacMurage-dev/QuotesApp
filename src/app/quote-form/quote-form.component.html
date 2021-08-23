@@ -8,7 +8,7 @@
         <div class="form-group">
             <label for ="info">Enter quote</label>
             <textarea rows="3" class="form-control" id="info" [(ngModel)]="newQuote.define" name="info" #info="ngModel" required></textarea>
-            <div [hidden]="info.valid || info.pristine" class="alert alert-danger">
+            <div [hidden]="info.valid || info.pristine" class="alert alert-primary">
                 <p>Insert quote</p>
             </div>
         </div>
@@ -17,7 +17,7 @@
         <div class="form-group">
             <label for ="name">Your name</label>
             <input type="text" class="form-control" id="name" [(ngModel)]="newQuote.details" name="name" #name='ngModel' required>
-            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+            <div [hidden]="name.valid || name.pristine" class="alert alert-primary">
                 <p>Insert your name</p>
             </div>
         </div>
@@ -25,7 +25,7 @@
         <div class="form-group">
             <label for ="author">Author's name</label>
             <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
-            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+            <div [hidden]="author.valid || author.pristine" class="alert alert-primary">
                 <p> Insert Author's name</p>
             </div>
         </div>
@@ -35,7 +35,7 @@
         <div class="form-group">
             <label for ="published">Today's date</label>
             <input type="date" class="form-control" id="published" [(ngModel)]="newQuote.postDate" name="published" #published="ngModel" required>
-            <div [hidden]="published.valid || published.pristine" class="alert alert-danger">
+            <div [hidden]="published.valid || published.pristine" class="alert alert-primary">
                 <p>Insert date</p>
             </div>
         </div>
